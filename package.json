@@ -1,0 +1,12 @@
+{
+  "name": "node-dependency-blues",
+  "version": "1.0.0",
+  "description": "Simple Stupid",
+  "main": "index.js",
+  "scripts": {
+    "start": "node command.js"
+  },
+  "keywords": [],
+  "author": "cds-amal",
+  "license": "ISC"
+}
