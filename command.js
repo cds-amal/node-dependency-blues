@@ -9,3 +9,6 @@ function processInput(args) {
 args = processInput(process.argv.slice(2));
 console.log(args);
 
+module.exports = {
+  processInput
+}
