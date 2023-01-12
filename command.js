@@ -6,8 +6,15 @@ function processInput(args) {
   return args.map(s => s.toUpperCase());
 }
 
-args = processInput(process.argv.slice(2));
-console.log(args);
+function main() {
+  args = processInput(process.argv.slice(2));
+  console.log(args);
+}
+
+// https://nodejs.org/api/modules.html#accessing-the-main-module
+if (require.main === module) {
+  main();
+}
 
 module.exports = {
   processInput
